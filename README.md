@@ -72,6 +72,10 @@ jdk8u-demo/
 │   └── HashMapProbe.java             # Step Into 验证 Demo
 ├── docs/
 │   └── JUC-study-guide.md            # 完整教程 + 自检清单
+├── jdk-src/                          # JDK 8 类库源码（可 Step Into）
+│   ├── java/lang/                    # Thread、Object 等
+│   ├── java/util/concurrent/         # JUC 核心
+│   └── sun/misc/Unsafe.java          # CAS native 入口
 └── README.md
 ```
 
@@ -192,6 +196,10 @@ jdk8u-demo/
 │   └── HashMapProbe.java             # Step Into verification
 ├── docs/
 │   └── JUC-study-guide.md            # Full tutorial with self-check lists
+├── jdk-src/                          # JDK 8 class library sources
+│   ├── java/lang/                    # Thread, Object, etc.
+│   ├── java/util/concurrent/         # JUC core
+│   └── sun/misc/Unsafe.java          # CAS native entry
 └── README.md
 ```
 
